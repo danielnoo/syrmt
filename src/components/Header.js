@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>Shaun Young RMT</h1>
         <p>
-          Massage guy doing massage stuff in Toronto 
+          Massage therapist serving Toronto
           <br />
           since 2014
         </p>
