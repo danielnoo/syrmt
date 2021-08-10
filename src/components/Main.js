@@ -92,7 +92,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Location</h2>
-          <span className="map-responsive main">
+          <span className="map-responsive">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.2188074692203!2d-79.41619778424236!3d43.6644189791209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b349278f16541%3A0xa70f153512d7a344!2s619A%20Bloor%20St%20W%2C%20Toronto%2C%20ON%20M6G%201K8!5e0!3m2!1sen!2sca!4v1628538343798!5m2!1sen!2sca" width="400" height="300" style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
           </span>
           <p>
