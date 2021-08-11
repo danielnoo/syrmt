@@ -2,7 +2,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
+
 
 class Main extends React.Component {
   render() {
@@ -30,27 +31,13 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic01} alt="Shaun Young on a boat" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Hi. I'm Shaun and I've been working in Toronto as a registered massage therapist for 7 years. If I'm not working I'm probably playing sports. I'm currently the commissioner of the Toronto Gay Basketball association, and I also play as much tennis as possible in addition to ultimate frisbee.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            If you're interested in booking an appointment, use the contact form to send me an email. 
           </p>
           {close}
         </article>
@@ -62,24 +49,22 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Services</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic04} alt="A hand massaging the lower back of a patient" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            I specialize in the following massage methods:<br/>
+            <br/>
+            Swedish Massage <br/>
+            Hot Stone Massage<br/>
+            Deep Tissue Massage<br/>
+            Sports Massage<br/>
+            Trigger Point Massage<br/>
+            Pre-natal Massage
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            If you're interested in booking an appointment, use the contact form to send me an email. 
           </p>
           {close}
         </article>
@@ -96,14 +81,12 @@ class Main extends React.Component {
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.2188074692203!2d-79.41619778424236!3d43.6644189791209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b349278f16541%3A0xa70f153512d7a344!2s619A%20Bloor%20St%20W%2C%20Toronto%2C%20ON%20M6G%201K8!5e0!3m2!1sen!2sca!4v1628538343798!5m2!1sen!2sca" width="400" height="300" style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Find me at 619a Bloor st. west, Toronto, Ontario, M6G 1K8 
+            By transit it's a quick walk from Bathurst subway station. 
+            There is a Green P parking lot at 696 Euclid Avenue, just north of Bloor.
           </p>
+          
+
           {close}
         </article>
 
@@ -126,7 +109,7 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message" rows="4" placeholder="Tell me about what you'd like me to help you with and let me know your availability. I'll respond and work with you to set up and appointment." data-gramm="false"></textarea>
             </div>
             <ul className="actions">
               <li>
@@ -139,14 +122,6 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="#"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
               <a href="https://www.facebook.com/shaun.young.7311" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
@@ -154,14 +129,6 @@ class Main extends React.Component {
             <li>
               <a href="https://www.linkedin.com/in/shaun-young-b2383686/?originalSubdomain=ca" className="icon fa-linkedin">
                 <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
               </a>
             </li>
           </ul>
