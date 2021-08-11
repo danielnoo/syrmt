@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Shaun Young registered massage therapist in Toronto, Ontario' },
+              { name: 'keywords', content: 'shaun young rmt registered massage therapist therapy Toronto downtown Yonge bloor Bathurst gay village church Wellesley book online near me affordable best male insurance' },
             ]}
           >
             <html lang="en" />
