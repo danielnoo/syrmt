@@ -1,10 +1,11 @@
 {
-  "name": "Shaun Young Registerd Massage Therapist",
+  "name": "syrmt",
   "description": "Shaun Young Registerd Massage Therapist",
   "version": "1.0.0",
   "author": "Daniel Noordegraaf",
   "dependencies": {
     "gatsby": "^2.19.5",
+    "gatsby-cli": "^3.11.0",
     "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.27",
