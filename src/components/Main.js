@@ -97,7 +97,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" netlify name="book-form">
+          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -129,6 +131,9 @@ class Main extends React.Component {
               <a href="https://www.linkedin.com/in/shaun-young-b2383686/?originalSubdomain=ca" className="icon fa-linkedin">
                 <span className="label">Instagram</span>
               </a>
+            </li>
+            <li>
+              <a className="icon fa-phone" href="tel:416-937-8821"></a>
             </li>
           </ul>
           {close}
