@@ -1,8 +1,4 @@
-///
-/// Dimension by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
+
 
 /* Image */
 
@@ -73,6 +69,14 @@
 			}
 		}
 
+		&.aboutImg {
+
+			img {
+				width: 50%;
+				margin: 0 auto;
+			}
+		}
+
 		@include breakpoint(small) {
 			&.main {
 				margin: (_size(element-margin) * 1) 0;
@@ -85,3 +89,4 @@
 			}
 		}
 	}
+

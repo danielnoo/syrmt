@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Shaun Young - Registered Massage Therapist',
     author: 'Shaun Young',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    description: 'Shaun Young Registered Massage Therapist Toronto',
+    siteUrl: `https://www.shaunyoungrmt.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,9 +16,11 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/noun_massage_18710.png', 
+        icon: 'src/images/sy.png',
       },
     },
     'gatsby-plugin-sass',
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
   ],
 }

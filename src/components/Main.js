@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import resizeShaun from '../images/resizeShaun.jpg'
 import pic04 from '../images/pic04.jpg'
 
 
@@ -29,15 +29,15 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="Shaun Young on a boat" />
+          <span className="image main aboutImg">
+            <img src={resizeShaun} alt="Shaun Young" />
           </span>
           <p>
-            Hi. I'm Shaun and I've been working in Toronto as a registered massage therapist for 7 years. If I'm not working I'm probably playing sports. I'm currently the commissioner of the Toronto Gay Basketball association, and I also play as much tennis as possible in addition to ultimate frisbee.
+            Shaun has been an RMT in Toronto since 2014.  With a skill set that includes deep tissue massage, stress relief, prenatal massage, sports massage, injury management and prevention and regular muscle tension relief. Shaun believes that regular massage in combination with other modalities is extremely beneficial in maintaining the most functional bodies we can.
+            In his down time you'll find Shaun on the tennis court, basketball court or swimming pool.  His love for athletics and interest in body mechanics helps him in his practice bringing a wealth of knowledge and experience to the table.
+
           </p>
-          <p>
-            If you're interested in booking an appointment, use the contact form to send me an email. 
-          </p>
+          
           {close}
         </article>
 
@@ -56,7 +56,6 @@ class Main extends React.Component {
             I specialize in the following massage methods:<br/>
             <br/>
             Swedish Massage <br/>
-            Hot Stone Massage<br/>
             Deep Tissue Massage<br/>
             Sports Massage<br/>
             Trigger Point Massage<br/>
